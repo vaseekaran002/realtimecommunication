@@ -1,0 +1,75 @@
+a {
+  text-decoration: none;
+  display: block;
+  color: white;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+form {
+  border: 3px solid #f1f1f1;
+  width: 50%;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #04aa6d;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 49%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.buttoncont {
+  display: flex;
+  justify-content: space-between;
+}
+
+.appname {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+
+.optimg {
+  width: 95%;
+  max-height: 350px;
+}
+
+.dbcont {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.optcont {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.opt {
+  width: 95%;
+}
