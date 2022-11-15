@@ -13,7 +13,7 @@ class Users(db.Model):
     def __init__(self,email,password):
         self.email = email
         self.password = password
-db.create_all()
+#db.create_all()
 
 @app.route('/',methods=['POST','GET'])
 def index(): 

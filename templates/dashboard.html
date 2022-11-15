@@ -2,25 +2,18 @@
 
 <!-- body -->
 {% block body %}
+
+<nav class="header" >
 <h1 class="appname">
   Real-Time Communication System Powered by AI for the Specially Abled
 </h1>
+</nav>
+
 <div class="dbcont">
   <div class="optcont">
     <img src="../static/images/sign.jpg" class="optimg" />
     <button class="opt">
       <a href="signtospeech">Sign Language to Speech conversion</a>
     </button>
-  </div>
-  <div class="optcont">
-    <img src="../static/images/text.png" class="optimg" />
-    <button class="opt">
-      <a href="texttosign">Text to Sign Language conversion</a>
-    </button>
-  </div>
-  <div class="optcont">
-    <img src="../static/images/admin.png" class="optimg" />
-    <button class="opt"><a href="admindb">Administrator Login</a></button>
-  </div>
 </div>
 {% endblock %}

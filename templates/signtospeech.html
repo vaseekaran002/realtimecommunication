@@ -1,11 +1,18 @@
 {% extends 'base.html' %} {% block head %} {% endblock %}
  
  {% block body %}
+  <nav class="header" >
   <h1 class="appname">
     Real-Time Communication System Powered by AI for the Specially Abled
   </h1>
+  </nav>
+  <div>
+  <p ><img id="output" width="200" src="../static/images/sign.jpg"/></p><br>
   <p><input type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)" style="display: none;"></p>
   <button style="width: 200px;"><label for="file" style="cursor: pointer;">Upload Image</label></button><br/>
-  <br/><p><img id="output" width="200" /></p>
+  <button id ="text" hidden="hidden" style="width: 200px;" >Show Text</button>
+  </div>
+  
   {% endblock %}
 </html>
+ 
